@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  background-color: #e3dada1a;
+  color: #201e1d;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #d3d3d3;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f06020;
+  color: white;
+}
+
+#hero button {
+  background-color: white;
+  color: #f06020;
+  border: round;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#hero button:hover {
+  background-color: #ffddcc;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+#about, #services, #contact {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(123, 28, 28, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #d3d3d3;
+  color: white;
+  position: relative;
+}
